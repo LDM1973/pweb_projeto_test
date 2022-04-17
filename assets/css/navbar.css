@@ -12,6 +12,14 @@
     color: #e5202b;
 }
 
+.offcanvas{
+    background-color: #111111;
+}
+
+.offcanvas-body{
+    background-color: #111111;
+}
+
 .close{
     color: white;
     font-size: 30px;
@@ -37,15 +45,12 @@
     font-size: 20px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: bold;
-    border-width: 2px;
-    border-color: white;
     border-radius: 50px;
     width: 150px;
 }
 
 .login:hover{
     color: #e5202b;
-    border-color: #e5202b;
 }
 
 .input{
