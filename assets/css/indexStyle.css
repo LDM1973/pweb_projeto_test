@@ -1,0 +1,96 @@
+.maisVendidos{
+    background-color: #111111;
+}
+
+.lancamentos{
+    background-color: #111111;
+}
+
+.carouselIndicator.off{
+    background-color: #111111;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.carouselIndicator.active{
+    background-color: #e5202b;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.carousel-control-prev-icon{
+    height: 80px;
+    width: 80px;
+}
+
+.carousel-control-next-icon{
+    height: 80px;
+    width: 80px;
+}
+
+
+.carousel-caption{
+    color: white;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+}
+
+.aviso{
+    color: white;
+    font-weight: bold;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.card{
+    text-align: start;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 50px;
+    transition: transform .2s;
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
+
+.card-img-top{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.card-title{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 25px;
+}
+
+.preco{
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.addSacola{
+    color: white;
+    font-size: 20px;
+}
+
+.addFav{
+    color: white;
+    font-size: 20px;
+}
+
+.addSacola:hover{
+    color: #e5202b;
+}
+
+.addFav:hover{
+    color: #e5202b;
+}
+
+#myFooter{
+    padding: 10px;
+}

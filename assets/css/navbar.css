@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'NauSea';
+    src: url('/assets/fonts/NauSea.ttf');
+}
+
+.lista{
+    color: white;
+    font-size: 30px;
+}
+
+.lista:hover{
+    color: #e5202b;
+}
+
+.close{
+    color: white;
+    font-size: 30px;
+}
+
+.close:hover{
+    color: #e5202b;
+}
+.link{
+    color: white;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: #e5202b;
+}
+
+.login{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 50px;
+    width: 150px;
+}
+
+.login:hover{
+    color: #e5202b;
+    border-color: #e5202b;
+}
+
+.input{
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: black;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.input:hover{
+    border-color: #e5202b;
+}
+
+.navbar-brand{
+    color: white;
+    font-family: 'NauSea';
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.sacola{
+    color: white;
+    font-size: 30px;
+}
+
+.sacola:hover{
+    color: #e5202b;
+}
