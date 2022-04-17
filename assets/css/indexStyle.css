@@ -1,3 +1,7 @@
+body{
+    background-color: #111111;
+}
+
 .maisVendidos{
     background-color: #111111;
 }
@@ -30,13 +34,6 @@
     width: 80px;
 }
 
-
-.carousel-caption{
-    color: white;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    font-weight: bold;
-}
-
 .aviso{
     color: white;
     font-weight: bold;
@@ -54,6 +51,12 @@
 
 .card:hover{
     transform: scale(1.15);
+}
+
+.imgCard:focus{
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 .card-img-top{
@@ -78,9 +81,22 @@
     font-size: 20px;
 }
 
+
 .addFav{
     color: white;
     font-size: 20px;
+}
+
+.addSacola:focus{
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.addFav:focus{
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 .addSacola:hover{
