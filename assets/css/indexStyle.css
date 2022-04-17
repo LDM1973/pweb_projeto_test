@@ -24,16 +24,6 @@ body{
     width: 20px;
 }
 
-.carousel-control-prev-icon{
-    height: 80px;
-    width: 80px;
-}
-
-.carousel-control-next-icon{
-    height: 80px;
-    width: 80px;
-}
-
 .aviso{
     color: white;
     font-weight: bold;
@@ -105,6 +95,28 @@ body{
 
 .addFav:hover{
     color: #e5202b;
+}
+
+.verTodos{
+    color: white;
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 50px;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.verTodos:hover{
+    color: #e5202b;
+    border-color: #e5202b;
+}
+
+.verTodos:focus{
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 #myFooter{

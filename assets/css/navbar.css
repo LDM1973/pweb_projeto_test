@@ -6,6 +6,7 @@
 .lista{
     color: white;
     font-size: 30px;
+    transition: color .2s;
 }
 
 .lista:hover{
@@ -38,8 +39,9 @@
 .link{
     color: white;
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
+    transition: color .2s;
 }
 
 .link:hover{
@@ -53,11 +55,13 @@
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: bold;
     border-radius: 50px;
+    border-width: 2px;
     width: 150px;
 }
 
 .login:hover{
     color: #e5202b;
+    border-color: #e5202b;
 }
 
 .login:focus{
@@ -66,21 +70,27 @@
     box-shadow: none;
 }
 
-.input{
+.form-control{
     font-size: 20px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     background-color: black;
+    border-color: black;
     border-width: 2px;
-    border-color: white;
     border-radius: 50px;
     box-sizing: border-box;
 }
 
-.input:hover{
+.form-control:hover{
     border-color: #e5202b;
 }
 
-.navbar-brand{
+.form-control:focus{
+    border-color: #e5202b;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbarLogo{
     color: white;
     font-family: 'NauSea';
     font-size: 30px;
@@ -88,7 +98,11 @@
     align-items: center;
 }
 
-.navbar-brand:focus{
+.navbarLogo:hover{
+    color: #e5202b;
+}
+
+.navbarLogo:focus{
     border-color: none;
     -webkit-box-shadow: none;
     box-shadow: none;

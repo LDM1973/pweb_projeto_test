@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,7 +28,7 @@
                     <span class="lista bi bi-list"></span>
                 </button>
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <button type="button" class="close btn bi bi-x-lg accordion-body p-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <button type="button" class="close btn bi bi-x-lg accordion-body p-5 me-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     <div class="offcanvas-body text-center">
                         <ul class="navbar-nav pe-3">
                             <li class="logo nav-item">
@@ -63,11 +63,11 @@
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <input class="input form-control me-2 text-white text-center bg-black" type="search" placeholder="O que você está procurando?" aria-label="Search">
+                            <input class="form-control me-2 text-white text-center bg-black" type="search" placeholder="O que você está procurando?" aria-label="Search">
                         </form>
                     </div>
                 </div>
-                <a href="index.html" class="navbar-brand btn text-white">Flyin Kicks</a>
+                <a href="index.html" class="navbarLogo btn">Flyin Kicks</a>
                 <a type="button" href="#" class="sacola btn bi bi-bag"></a>
             </div>
         </nav>
@@ -90,10 +90,9 @@
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
+            <span></span>
         </button>
     </div>
     <div class="maisVendidos container-fluid text-white" align="center"><br/>
@@ -177,7 +176,7 @@
             </div>
         </div>
     </div>
-    <div class="lancamentos container-fluid text-white" align="center">
+    <div class="lancamentos container-fluid text-white mb-5" align="center">
         <h1 class="aviso display-5 text-center"></br>Lançamentos:</h1><br/><br/>
         <div class="row">
             <div class="col-sm">
@@ -257,10 +256,11 @@
                 </div>
             </div>
         </div><br/>
+        <button type="button" class="verTodos btn">Ver Todos</button>
     </div>
     <div class="container-fluid bg-black">
     <footer id="myFooter">
-        <div class="container-fluid bg-black text-white mt-4" align="center">
+        <div class="container-fluid bg-black text-white text-center mt-3">
             <p>©Copyright 2022 | Flyin Kicks</p>
         </div>
     </footer>
