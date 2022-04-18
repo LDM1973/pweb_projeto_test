@@ -1,0 +1,201 @@
+body{
+    background-color: #111111;
+}
+
+.carousel-inner{
+    border-top-left-radius: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 60px;
+}
+
+.carouselIndicator.off{
+    background-color: #111111;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.carouselIndicator.active{
+    background-color: #e5202b;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.titulo{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+
+.preco{
+    font-size: 30px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.parcela{
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: white;
+}
+
+.tamanhoTitle{
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.tamanhoSelect{
+    color: white;
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: black;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.tamanhoSelect:focus{
+    border-color: #e5202b;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.botaoAdd{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    border-width: 2px;
+}
+
+.botaoAdd:hover{
+    color: #e5202b;
+    border-color: #e5202b;
+}
+
+.botaoAdd:focus{
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.botaoComprar{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    border-width: 2px;
+}
+
+.botaoComprar:hover{
+    color: #e5202b;
+    border-color: #e5202b;
+}
+
+.botaoComprar:focus{
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.descricao{
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.compreTbm{
+    margin-bottom: 40px;
+}
+
+.aviso{
+    color: white;
+    font-weight: bold;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.card{
+    text-align: start;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 50px;
+    transition: transform .2s;
+}
+
+.cardPreco{
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.addSacola{
+    color: white;
+    font-size: 20px;
+}
+
+
+.addFav{
+    color: white;
+    font-size: 20px;
+}
+
+.addSacola:focus{
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.addFav:focus{
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.addSacola:hover{
+    color: #e5202b;
+}
+
+.addFav:hover{
+    color: #e5202b;
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
+
+.imgCard:focus{
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.card-img-top{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.card-title{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 25px;
+}
+
+
+#myFooter{
+    padding: 10px;
+}
