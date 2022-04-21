@@ -45,7 +45,6 @@ body{
 
 .imgCard:focus{
     border-color: none;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -79,13 +78,11 @@ body{
 
 .addSacola:focus{
     border-color: none;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
 .addFav:focus{
     border-color: none;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -115,10 +112,27 @@ body{
 
 .verTodos:focus{
     border-color: none;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
 #myFooter{
     padding: 10px;
+}
+
+/* ***************** all.html ***************** */
+
+.todos1{
+    margin-top: 10%;
+}
+
+
+@media screen and (max-width: 992px) and 
+(min-width: 0px) {
+    .card:hover{
+        transform: none;
+    }
+
+    .todos1{
+        margin-top: 20%;
+    }
 }

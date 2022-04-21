@@ -1,0 +1,149 @@
+body{
+  background-color: #111111;
+}
+
+.container{
+  margin-top: 15%;
+  margin-bottom: 15%;
+  display: grid;
+  place-items: center;
+}
+
+.card{
+  border-top-left-radius: 60px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 60px;
+  padding: 30px;
+  width: 100%;
+  max-width: 420px;
+  padding: 25px;
+}
+
+h3{
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: bold;
+}
+
+label{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: bold;
+}
+
+.input{
+  font-size: 20px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  background-color: black;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+.input:hover{
+  border-color: #e5202b;
+}
+
+.input:focus{
+  border-color: #e5202b;
+  box-shadow: none;
+}
+
+.possuiLogin{
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: bold;
+}
+
+.linkLogin{
+  color: #e5202b;
+}
+
+.esqueci{
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: bold;
+}
+
+.linkEsqueciSenha{
+  color: #e5202b;
+}
+
+.btnCadastro{
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: bold;
+  border-color: black;
+  border-radius: 50px;
+  border-width: 2px;
+  width: 150px;
+  margin-top: 30px;
+}
+
+.btnCadastro:hover{
+  color: #e5202b;
+}
+
+.btnCadastro:focus{
+  border-color: none;
+  box-shadow: none;
+}
+
+.btnLogin{
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: bold;
+  border-color: white;
+  border-radius: 50px;
+  border-width: 2px;
+  width: 150px;
+  margin-top: 30px;
+}
+
+.btnLogin:hover{
+  color: #e5202b;
+  border-color: #e5202b;
+}
+
+.btnLogin:focus{
+  border-color: none;
+  box-shadow: none;
+}
+
+.btnCadastro2{
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: bold;
+  border-color: white;
+  border-radius: 50px;
+  border-width: 2px;
+  width: 150px;
+  margin-top: 30px;
+}
+
+.btnCadastro2:hover{
+  color: #e5202b;
+  border-color: #e5202b;
+}
+
+.btnCadastro2:focus{
+  border-color: none;
+  box-shadow: none;
+}
+
+#myFooter{
+    padding: 10px;
+}
+
+@media screen and (max-width: 992px) and 
+(min-width: 0px) {
+  #myFooter{
+    margin-top: 100%;
+  }
+}

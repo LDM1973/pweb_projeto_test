@@ -64,7 +64,6 @@ body{
 
 .tamanhoSelect:focus{
     border-color: #e5202b;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -85,7 +84,6 @@ body{
 
 .botaoAdd:focus{
     border-color: none;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -106,7 +104,6 @@ body{
 
 .botaoComprar:focus{
     border-color: none;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -157,13 +154,11 @@ body{
 
 .addSacola:focus{
     border-color: none;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
 .addFav:focus{
     border-color: none;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -181,7 +176,6 @@ body{
 
 .imgCard:focus{
     border-color: none;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
