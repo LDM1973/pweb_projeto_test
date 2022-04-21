@@ -123,10 +123,11 @@ body{
 
 .todos1{
     margin-top: 10%;
+    background-color: #111111;
 }
 
 
-@media screen and (max-width: 992px) and 
+@media screen and (max-width: 994px) and 
 (min-width: 0px) {
     .card:hover{
         transform: none;

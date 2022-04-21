@@ -139,11 +139,9 @@ label{
 
 #myFooter{
     padding: 10px;
+    margin-top: 100%;
 }
 
 @media screen and (max-width: 992px) and 
 (min-width: 0px) {
-  #myFooter{
-    margin-top: 100%;
-  }
 }
