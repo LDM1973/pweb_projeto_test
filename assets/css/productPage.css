@@ -56,18 +56,20 @@ body{
     font-size: 20px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     background-color: black;
-    border-color: black;
+    border-color: white;
     border-width: 2px;
     border-radius: 50px;
-    box-sizing: border-box;
+}
+
+.tamanhoSelect:hover{
+    border-color: #e5202b;
 }
 
 .tamanhoSelect:focus{
     border-color: #e5202b;
-    box-shadow: none;
 }
 
-.botaoAdd{
+.btnAdd{
     color: black;
     background-color: white;
     font-size: 20px;
@@ -77,17 +79,17 @@ body{
     border-width: 2px;
 }
 
-.botaoAdd:hover{
+.btnAdd:hover{
     color: #e5202b;
     border-color: #e5202b;
 }
 
-.botaoAdd:focus{
+.btnAdd:focus{
     border-color: none;
     box-shadow: none;
 }
 
-.botaoComprar{
+.btnComprar{
     color: white;
     background-color: black;
     font-size: 30px;
@@ -95,14 +97,15 @@ body{
     font-weight: bold;
     border-radius: 50px;
     border-width: 2px;
+    border-color: white;
 }
 
-.botaoComprar:hover{
+.btnComprar:hover{
     color: #e5202b;
     border-color: #e5202b;
 }
 
-.botaoComprar:focus{
+.btnComprar:focus{
     border-color: none;
     box-shadow: none;
 }
@@ -192,4 +195,24 @@ body{
 
 #myFooter{
     padding: 10px;
+}
+
+@media screen and (max-width: 994px) and 
+(min-width: 0px) {
+    .tamanhoTitle{
+        font-size: 30px;
+    }
+
+    .tamanhoSelect{
+        font-size: 30px;
+    }
+
+    .btnAdd{
+        font-size: 30px;
+        box-sizing: border-box;
+    }
+    .btnComprar{
+        font-size: 35px;
+        
+    }
 }

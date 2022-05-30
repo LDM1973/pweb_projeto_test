@@ -55,6 +55,7 @@
     font-weight: bold;
     border-radius: 50px;
     border-width: 2px;
+    border-color: white;
     width: 150px;
 }
 
@@ -72,7 +73,7 @@
     font-size: 20px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     background-color: black;
-    border-color: black;
+    border-color: white;
     border-width: 2px;
     border-radius: 50px;
     box-sizing: border-box;
