@@ -2,10 +2,6 @@ body{
     background-color: #111111;
 }
 
-.maisVendidos{
-    background-color: #111111;
-}
-
 .lancamentos{
     margin-bottom: 40px;
 }
@@ -24,7 +20,7 @@ body{
     width: 20px;
 }
 
-.aviso{
+.title{
     color: white;
     font-weight: bold;
     font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -118,11 +114,4 @@ body{
 
 #myFooter{
     padding: 10px;
-}
-
-@media screen and (max-width: 994px) and 
-(min-width: 0px) {
-    .card:hover{
-        transform: none;
-    }
 }
