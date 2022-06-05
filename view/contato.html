@@ -14,15 +14,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">.
     <style>
         @font-face {
-            font-family: 'NauSea';
-            src:url("../assets/fonts/NauSea.ttf") format("truetype");
-        }
-        h3{
-            font-family: 'Atkinson Hyperlegible', sans-serif;
-            font-weight: bold;
-        }
+        font-family: 'NauSea';
+        src:url("../assets/fonts/NauSea.ttf") format("truetype");
+    }
     </style>
-    <title>Em Construção</title>
+    <title>Cadastrar - Flyin Kicks</title>
     <link rel="shortcut icon" href="../assets/img/logo.ico">
 </head>
 <body>
@@ -47,17 +43,17 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="construction.html">
+                                <a class="nav-link disabled" href="#">
                                     <p class="link">Calendário</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="construction.html">
+                                <a class="nav-link disabled" href="#">
                                     <p class="link">Notícias</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">
+                                <a class="nav-link" href="contato.html">
                                     <p class="link">Contato</p>
                                 </a>
                             </li>
@@ -73,13 +69,21 @@
                     </div>
                 </div>
                 <a href="../index.html" class="navbarLogo btn">Flyin Kicks</a>
-                <a type="button" href="./bag.html" class="sacola btn bi bi-bag"></a>
+                <a type="button" href="#" class="sacola btn bi bi-bag"></a>
             </div>
         </nav>
     </header>
     <div class="container">
         <div class="card bg-black text-center text-white">
-            <h1>Em Construção!</h1>
+            <img class="mx-auto" src="../assets/img/logo.png" alt="thumb" width="72" height="72">
+            <h3 class="mt-5">Contato</h3>
+            <label for="inputEmail">Insira seu nome:</label>
+            <input type="text" class="input form-control text-white bg-black" type="text" id="inputNome" placeholder="ex: Jose Silva">
+            <label for="inputSenha">Insira seu email:</label>
+            <input type="password" class="input form-control text-white bg-black" id="inputEmail" placeholder="email@exemplo.com">
+            <label for="inputSenha">Insira sua mensagem:</label>
+            <textarea class="mensagemInput" name="mensagem" id="inputMensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+            <a href="" class="btnEnviar btn ms-auto">Enviar</a>
         </div>
     </div>
     <div class="container-fluid bg-black">

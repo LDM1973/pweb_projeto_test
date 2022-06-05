@@ -27,7 +27,7 @@ body{
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: #ffffff;
     margin-top: 20px;
 }
 
@@ -35,28 +35,28 @@ body{
     font-size: 30px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: bold;
-    color: white;
+    color: #ffffff;
 }
 
 .parcela{
     font-size: 20px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    color: white;
+    color: #ffffff;
 }
 
-.tamanhoTitle{
+.tamanhoTitulo{
     font-size: 20px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: bold;
-    color: white;
+    color: #ffffff;
 }
 
 .tamanhoSelect{
-    color: white;
+    color: #ffffff;
     font-size: 20px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    background-color: black;
-    border-color: white;
+    background-color: #000000;
+    border-color: #ffffff;
     border-width: 2px;
     border-radius: 50px;
 }
@@ -70,8 +70,8 @@ body{
 }
 
 .btnAdd{
-    color: black;
-    background-color: white;
+    color: #000000;
+    background-color: #ffffff;
     font-size: 20px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: bold;
@@ -90,14 +90,14 @@ body{
 }
 
 .btnComprar{
-    color: white;
-    background-color: black;
+    color: #ffffff;
+    background-color: #000000;
     font-size: 30px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: bold;
     border-radius: 50px;
     border-width: 2px;
-    border-color: white;
+    border-color: #ffffff;
 }
 
 .btnComprar:hover{
@@ -113,84 +113,12 @@ body{
 .descricao{
     font-size: 20px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    color: white;
+    color: #ffffff;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.compreTbm{
-    margin-bottom: 40px;
-}
 
-.aviso{
-    color: white;
-    font-weight: bold;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-}
-
-.card{
-    text-align: start;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 50px;
-    transition: transform .2s;
-}
-
-.cardPreco{
-    font-size: 20px;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-.addSacola{
-    color: white;
-    font-size: 20px;
-}
-
-
-.addFav{
-    color: white;
-    font-size: 20px;
-}
-
-.addSacola:focus{
-    border-color: none;
-    box-shadow: none;
-}
-
-.addFav:focus{
-    border-color: none;
-    box-shadow: none;
-}
-
-.addSacola:hover{
-    color: #e5202b;
-}
-
-.addFav:hover{
-    color: #e5202b;
-}
-
-.card:hover{
-    transform: scale(1.15);
-}
-
-.imgCard:focus{
-    border-color: none;
-    box-shadow: none;
-}
-
-.card-img-top{
-    border-radius: 10px;
-    margin-top: 10px;
-}
-
-.card-title{
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    font-size: 25px;
-}
 
 
 #myFooter{
@@ -199,7 +127,7 @@ body{
 
 @media screen and (max-width: 994px) and 
 (min-width: 0px) {
-    .tamanhoTitle{
+    .tamanhotitulo{
         font-size: 30px;
     }
 
